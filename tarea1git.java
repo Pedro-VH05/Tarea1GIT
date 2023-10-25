@@ -10,5 +10,8 @@ class tarea1git {
 
 		double resultado = primerNumero + segundoNumero;
 		System.out.println("La suma es " + resultado);
+
+		boolean esPar = (resultado % 2) == 0;
+		System.out.println("¿El resultado es par?: " + esPar);
 	}
 }
